@@ -1,2 +1,4 @@
 setupRequired(java)
 envPrepend(PATH, ${PRODUCT_DIR}/bin)
+envPrepend(PATH, ${PRODUCT_DIR}/c-binding/bin/)
+envPrepend(LD_LIBRARY_PATH, ${PRODUCT_DIR}/c-binding/lib/)
